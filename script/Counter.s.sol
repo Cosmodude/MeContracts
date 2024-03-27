@@ -9,7 +9,7 @@ contract CounterScript is Script {
     function setUp() public {}
 
     function run() public {
-        // forge script script/deployRouter.s.sol --broadcast --account <walletName>
+        // forge script script/Counter.s.sol --broadcast --account <walletName>
         address deployer = vm.envAddress("DEPLOYER_ADDRESS");
         console.log("Deployer address: %s", deployer);
 
